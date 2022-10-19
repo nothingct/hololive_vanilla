@@ -1,0 +1,100 @@
+body{
+  height: 100vh;
+  background-image: url(./hololive/bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.container .hololive{
+  display: flex; 
+  flex-wrap: wrap;
+  /* background-color: orange; */
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container .hololive .member{
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  margin: 4px;
+  border : 3px solid #fff;
+  border-radius: 30px;
+  box-sizing: border-box ;
+  transform : skewX(-14deg);
+  transition: 
+    transform .1s,
+    background-color 0.5s,
+    border-radius 1s;
+  overflow: hidden;
+  
+} 
+
+.container .hololive .member:hover{ 
+  background-color: #ff9c00;
+  border-radius: 50%;
+  transform: scale(2);
+  z-index: 1;
+}
+.container .hololive .member .image{
+  width : 100%;
+  height: 100%;
+  background-position:center;
+  background-size :contain;
+  background-repeat: no-repeat;
+  transform: skewX(14deg);
+}
+
+.container .hololive .member:nth-child(1) .image{  background-image: url(./hololive/member1.png); }
+.container .hololive .member:nth-child(2) .image{  background-image: url(./hololive/member2.png); }
+.container .hololive .member:nth-child(3) .image{  background-image: url(./hololive/member3.png); }
+.container .hololive .member:nth-child(4) .image{  background-image: url(./hololive/member4.png); }
+.container .hololive .member:nth-child(5) .image{  background-image: url(./hololive/member5.png); }
+.container .hololive .member:nth-child(6) .image{  background-image: url(./hololive/member6.png); }
+.container .hololive .member:nth-child(7) .image{  background-image: url(./hololive/member7.png); }
+.container .hololive .member:nth-child(8) .image{  background-image: url(./hololive/member8.png); }
+.container .hololive .member:nth-child(9) .image{  background-image: url(./hololive/member9.png); }
+.container .hololive .member:nth-child(10) .image{  background-image: url(./hololive/member10.png); }
+.container .hololive .member:nth-child(11) .image{  background-image: url(./hololive/member11.png); }
+.container .hololive .member:nth-child(12) .image{  background-image: url(./hololive/member12.png); }
+.container .hololive .member:nth-child(13) .image{  background-image: url(./hololive/member13.png); }
+.container .hololive .member:nth-child(14) .image{  background-image: url(./hololive/member14.png); }
+.container .hololive .member:nth-child(15) .image{  background-image: url(./hololive/member15.png); }
+.container .hololive .member:nth-child(16) .image{  background-image: url(./hololive/member16.png); }
+.container .hololive .member:nth-child(17) .image{  background-image: url(./hololive/member17.png); }
+.container .hololive .member:nth-child(18) .image{  background-image: url(./hololive/member18.png); }
+.container .hololive .member:nth-child(19) .image{  background-image: url(./hololive/member19.png); }
+.container .hololive .member:nth-child(20) .image{  background-image: url(./hololive/member20.png); }
+.container .hololive .member:nth-child(21) .image{  background-image: url(./hololive/member21.png); }
+.container .hololive .member:nth-child(22) .image{  background-image: url(./hololive/member22.png); }
+.container .hololive .member:nth-child(23) .image{  background-image: url(./hololive/member23.png); }
+.container .hololive .member:nth-child(24) .image{  background-image: url(./hololive/member24.png); }
+.container .hololive .member:nth-child(25) .image{  background-image: url(./hololive/member25.png); }
+.container .hololive .member:nth-child(26) .image{  background-image: url(./hololive/member26.png); }
+.container .hololive .member:nth-child(27) .image{  background-image: url(./hololive/member27.png); }
+.container .hololive .member:nth-child(28) .image{  background-image: url(./hololive/member28.png); }
+.container .hololive .member:nth-child(29) .image{  background-image: url(./hololive/member29.png); }
+.container .hololive .member:nth-child(30) .image{  background-image: url(./hololive/member30.png); }
+.container .hololive .member:nth-child(31) .image{  background-image: url(./hololive/member31.png); }
+.container .hololive .member:nth-child(32) .image{  background-image: url(./hololive/member32.png); }
+.container .hololive .member:nth-child(33) .image{  background-image: url(./hololive/member33.png); }
+.container .hololive .member:nth-child(34) .image{  background-image: url(./hololive/member34.png); }
+.container .hololive .member:nth-child(35) .image{  background-image: url(./hololive/member35.png); }
+.container .hololive .member:nth-child(36) .image{  background-image: url(./hololive/member36.png); }
+
+.container .logo{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container .logo img{text-shadow: ;
+  width: 100%;
+  padding : 0 20pox;
+}
